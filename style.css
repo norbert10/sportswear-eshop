@@ -26,7 +26,7 @@ nav ul li a{
     color: teal;
 }
 .fa{
-    margin: 20px;
+    margin: 10px;
 }
 
 #container{
@@ -48,4 +48,23 @@ nav ul li a{
     min-width: 300px;
     padding: 20px;
     text-align: center;
+}
+h1{
+    font-size: 35px;
+}
+p{
+font-size: 20px;
+}
+#btn{
+    background-color: brown;
+    color:black;
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 3px;
+
+}
+#btn .fa{
+    background-color: brown;
+    
 }
