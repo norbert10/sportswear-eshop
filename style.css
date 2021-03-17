@@ -8,6 +8,9 @@
 body{
     background-color: wheat;
 }
+body{
+    scroll-behavior: smooth;
+}
 nav{
    flex: 1;
    text-align: right;
@@ -107,6 +110,9 @@ p{
 #cate2{
     display: flex;
     padding: 5px;
+}
+#sportsboot{
+    display: flex;
 }
 
 .footer{
