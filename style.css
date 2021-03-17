@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:wheat;
+    background-color:white;
+    
+ 
     
 }
 nav{
@@ -19,11 +21,13 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 20px;
+    position: sticky;
    
 }
 nav ul li a{
     text-decoration: none;
     color: teal;
+  
 }
 .fa{
     margin: 10px;
@@ -37,6 +41,7 @@ nav ul li a{
 #image{
     max-width: 100%;
     padding: 50px 0;
+    
 }
 #all{
     display: flex;
@@ -46,8 +51,9 @@ nav ul li a{
 #text{
     flex-basis: 50%;
     min-width: 300px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+ 
 }
 h1{
     font-size: 35px;
@@ -68,3 +74,35 @@ font-size: 20px;
     background-color: brown;
     
 }
+#category{
+    display: flex;
+    
+}
+.image-container{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.button{
+    color:black;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    
+}
+#fea{
+    text-align: center;
+    font-size: 23px;
+    padding: 5px;
+}
+p{
+    font-size: 24px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
