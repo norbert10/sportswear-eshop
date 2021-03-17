@@ -76,6 +76,8 @@ font-size: 20px;
 }
 #category{
     display: flex;
+    padding: 4px;
+    margin: 3px;
     
 }
 .image-container{
@@ -97,9 +99,9 @@ font-size: 20px;
     padding: 5px;
 }
 p{
-    font-size: 24px;
+    font-size: 20px;
     padding: 5px;
-    font-weight: bold;
+    
 }
 
 
