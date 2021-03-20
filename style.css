@@ -73,6 +73,7 @@ font-size: 20px;
     font-size: 20px;
     padding: 3px;
 
+
 }
 #btn .fa{
     background-color: brown;
@@ -164,4 +165,30 @@ a{
 }
 
 
+/*css for about page*/
+body{
+    background-color: wheat;
+}
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
 
+}
+
+.aboutus h2{
+    color: teal;
+}
+
+.aboutus{
+    padding: 30px;
+}
+
+/*css for help page*/
+.icons img{
+    width: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
