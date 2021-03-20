@@ -26,11 +26,13 @@ nav ul li{
     display: inline-block;
     margin: 20px;
     position: sticky;
+    top: 0;
    
 }
 nav ul li a{
     text-decoration: none;
     color: teal;
+    
   
 }
 .fa{
@@ -96,6 +98,9 @@ font-size: 20px;
     border-radius: 5px;
     padding: 2px;
     font-weight: bold;
+    width: 90%;
+    margin: 5px auto;
+
     
 }
 #fea{
